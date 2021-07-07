@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- FONT STYLES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS STYLES -->
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="main-head">Wise</h1>
+    </header>
+    <hr />
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <hr />
+    <main>
+      <section id="about">
+        <h2 class="about-h2">What you will find out ?</h2>
+        <p class="about-text">
+          This website propose a new living place for animals, where they can
+          live peacefully and have large place to live. We are collecting money
+          to buy a new place for them to habbit. Let's save animals together.
+        </p>
+      </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="container">
+          <form action="action_page.php">
+            <div class="row">
+              <div class="col-25">
+                <label for="fname">Username</label>
+              </div>
+              <div class="col-75">
+                <input
+                  type="text"
+                  id="fname"
+                  name="firstname"
+                  placeholder="Your username.."
+                  required
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="lname">Email</label>
+              </div>
+              <div class="col-75">
+                <input
+                  type="email"
+                  id="lname"
+                  name="lastname"
+                  placeholder="Your Email.."
+                  required
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="subject">Subject</label>
+              </div>
+              <div class="col-75">
+                <textarea
+                  id="subject"
+                  name="subject"
+                  placeholder="Write something.."
+                  style="height: 200px"
+                ></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <input type="submit" value="Submit" />
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>&copy; By Sergejus Leonovas</footer>
+  </body>
+</html>
